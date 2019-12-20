@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:53552/",
-      "sslPort": 0
+      "applicationUrl": "http://localhost:51411",
+      "sslPort": 44317
     }
   },
   "profiles": {
@@ -18,10 +18,10 @@
     "HelloBlazor": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:53553/"
+      }
     }
   }
 }
